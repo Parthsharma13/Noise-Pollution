@@ -49,17 +49,17 @@ body{
     display: flex;
     
 }
-'@media screen and (max-width:500px)': {
-    body: {
+@media screen and (max-width:500px) {
+    body{
         margin: auto;
         /* background-color: black; */
         background: linear-gradient(white,cadetblue);
     }
-    .needtoflex: {
+    .needtoflex{
         display: block;
         width: fit-content;
     }
-    .quote: {
+    .quote{
         font-size: 100px;
     padding: 200px 100px;
     text-align: center;
