@@ -49,6 +49,24 @@ body{
     display: flex;
     
 }
+@media screen and (max-width:500px) {
+    body{
+        margin: auto;
+        /* background-color: black; */
+        background: linear-gradient(white,cadetblue);
+    }
+    .needtoflex{
+        display: block;
+        width: fit-content;
+    }
+    .quote{
+        font-size: 100px;
+    padding: 200px 100px;
+    text-align: center;
+    text-shadow: 1px 1px 1px  white;
+    }
+    
+}
 
 .quote{
     font-size: 100px;
@@ -56,6 +74,7 @@ body{
     text-align: center;
     text-shadow: 1px 1px 1px  white;
     /* padding-top: 500px; */
+    width: fit-content;
 }
 /* :root{
     --color1:black;
