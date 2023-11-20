@@ -18,6 +18,9 @@ header ,nav,main {
     font-family:math;
     border: 2px solid black;
     margin: 50px;
+    font-size: 30px;
+    color: white;
+    text-shadow: 0 0 5px black;
 }
 .logo{
     margin-left:10px ;
